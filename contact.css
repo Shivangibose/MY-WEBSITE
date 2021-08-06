@@ -1,0 +1,189 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+#navid
+{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
+#navbarbrand
+{
+    height: 2rem;
+    width: 2rem;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1.5px;
+}
+.nav-link:hover
+{
+    color: #170542;
+    
+}
+.container
+{
+    width: 100%;
+   
+}
+#main
+{
+    background: linear-gradient(#3114d4,#239d60);
+}
+#left
+{
+    height: 32rem;
+    width:40rem ;
+    padding: 2rem;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    margin-bottom: 5.1rem;
+    color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.left1
+{
+    
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+.left2
+{
+    
+    width: 85%;
+    margin-top: 1rem;
+    position: absolute;
+    top: 25%;
+    
+}
+#left-2
+{
+    width: 100%;
+}
+#right
+{
+    height: 32rem;
+    width: 30rem;
+    border-radius: 11px;
+    padding: 1.5rem;
+    margin-top:8rem;
+    margin-left: 1rem;
+    margin-bottom: 5.1rem;
+    background-color: transparent;
+    overflow: scroll;
+    box-shadow: -5px -10px 15px #181717;
+}
+.right1
+{
+    height: 5rem;
+    width: 100%;
+}
+.rightpic1 
+{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+    
+}
+.rightpic2 
+{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem 1rem 1rem 3rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.rightpic3 
+{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem 1rem 1rem 3rem;
+}
+
+.rightpic4 
+{
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem 1rem 1rem 3rem;
+}
+.right2{
+    height: 2px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+}
+.contact-box
+{
+   width:100%;
+   height: 20rem;
+   margin-top: 2.5rem;
+   margin-bottom: 2rem;
+   
+}
+.input-field
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    text-align:justify;
+    opacity: 0.9;
+}
+.textarea-field
+{
+    height: 110px ;
+}
+
+.btn
+{
+    
+    margin: 2px;
+    padding: 5px;
+    font-size: 2px;
+    cursor: pointer;
+    margin-left: 11rem;
+   
+}
+
+@media (max-width:959.99px){
+    #left{
+        
+        margin: 8rem auto 4rem auto;
+    }
+    #right{
+        
+        margin: 4rem auto 4rem auto;
+    }
+    
+}
+
+@media (max-width:700px){
+    #left{
+        
+        margin: 6rem auto 6rem auto;
+    }
+    
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}

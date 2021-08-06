@@ -1,0 +1,406 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+#navid
+{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    color: white;
+}
+#navbarbrand
+{
+    height: 2rem;
+    width: 2rem;
+}
+.nav-link{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1.5px;
+}
+.nav-link:hover
+{
+    color: #170542;
+    
+}
+.container
+{
+    width: 100%;
+   
+}
+#main
+{
+    
+    background: linear-gradient(#3114d4,#239d60);
+}
+
+#left
+{
+    height: 31rem;
+    width:17rem ;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    margin-bottom: 4.1rem;
+    border-radius: 11px;
+    background:linear-gradient(#222222,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff);
+    box-shadow: -5px -8px 10px #161616;
+    overflow: hidden;
+
+}
+.left-1
+{
+    padding: 2px;
+    height: 2.5rem;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    border-radius: 8px 8px 0 0;
+    background-color: #222222;
+    position: relative;
+}
+.iconleft1
+{
+    color: #ffffff;
+    margin: 10px;
+}
+.postleft1
+{
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+.left-2
+{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #222222;
+   position: relative;
+}
+.iconleft2
+{
+    color: #ffffff;
+    margin: 10px;
+}
+.postleft2
+{
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    font-size: 1rem;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-family: 'Recursive', sans-serif;
+}
+.left-3
+{
+    height: 18rem;
+    width: 100%;
+    position: relative;
+    
+}
+
+#picleft3
+{
+    width: 100%;
+}
+.left-4
+{
+    height: 2.5rem;
+    width: 100%;
+    position: relative;
+   background-color: #ffffff;
+}
+#heart
+{
+    color: #333333;
+    margin: 12px;
+}
+#heart.red {
+    color: red;
+  }
+
+#heart:hover
+{
+    color: red;
+    margin: 12px;
+}
+.postleft4
+{
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    font-size: 1rem;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+    color: #222222;
+    
+}
+.left-5
+{
+    padding: 10px;
+    height: 4.5rem;
+    width: 100%;
+    font-family: 'Baloo 2', cursive;
+    background-color: #ffffff;
+   overflow-y: scroll;
+}
+.postleft5
+{
+    color: #222222;
+    margin-left: 5px;
+}
+
+#right
+{
+    height: 34rem;
+    width: 47rem;
+    margin-top:8rem;
+    margin-left: 2rem;
+    margin-bottom: 3.1rem;
+    border-radius: 10px;
+    background: transparent;
+    overflow: scroll;
+    box-shadow: -5px -8px 10px #181717;
+}
+.right1
+{
+    height: 4.5rem;
+    width: 100%;
+    padding: 7px;
+    
+    color: #ffffff;
+    position: relative;
+}
+.iconright1
+{
+    margin: 10px;
+}
+.commentright1
+{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.right2
+{
+    height: 3.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    position: relative;
+}
+.iconright2
+{
+    margin: 15px;
+}
+.commentright2
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright21
+{
+    position: absolute;
+    top:15px;
+    left: 210px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+}
+.right3
+{
+    height: 4.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    padding-right: 5px;
+    position: relative;
+}
+.iconright3
+{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.commentright3
+{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright31
+{
+    position: absolute;
+    top:15px;
+    left: 240px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+    
+}
+.right4
+{
+    height: 3.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    position: relative;
+}
+.iconright4
+{
+    margin: 15px;
+}
+.commentright4
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright41
+{
+    position: absolute;
+    top:15px;
+    left: 110px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+    
+}
+.right5
+{
+    height: 3.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    position: relative;
+}
+.iconright5
+{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.commentright5
+{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright51
+{
+    position: absolute;
+    top:15px;
+    left: 240px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+    
+}
+.right6
+{
+    height: 4.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    position: relative;
+}
+.iconright6
+{
+    margin: 15px;
+}
+.commentright6
+{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright61
+{
+    position: absolute;
+    top:15px;
+    left: 165px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+}
+.right7
+{
+    height: 8.5rem;
+    width: 100%;
+    padding: 5px;
+    color: #ffffff;
+    padding-right: 5px;
+    position: relative;
+}
+.iconright7
+{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.commentright7
+{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    letter-spacing: 2px;
+    font-family: 'Mali', cursive;
+}
+.commentright71
+{
+    position: absolute;
+    top:15px;
+    left: 245px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-family: 'Spectral', serif;
+}
+
+@media (max-width:959.99px){
+    #left{
+        
+        margin: 8rem auto 4rem auto;
+    }
+    #right{
+        border-radius:10px ;
+        
+        margin: 4rem auto 4rem auto;
+    }
+    
+}
+
+@media (max-width:700px){
+    #left{
+        
+        margin: 6rem auto 6rem auto;
+    }
+    
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}
